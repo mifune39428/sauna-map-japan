@@ -25051,7 +25051,7 @@
   "is_male_available": true,
   "is_female_available": true,
   "male": {
-   "sauna_temperature": 90,
+   "sauna_temperature": 94,
    "water_baths_temperature": 8.7,
    "open_air": true
   },
