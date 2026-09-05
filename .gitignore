@@ -1,3 +1,4 @@
 .DS_Store
 tools/cache/
 tools/__pycache__/
+launchd_*.log

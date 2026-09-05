@@ -4,11 +4,17 @@
 
 サウナイキタイの一覧JSONには公式サイトのURLが入っていないため、
 座標と名前で OSM のPOIに突き合わせて website タグを借りている。
+
+Overpass は混んでいるとJSONではなくHTMLのエラーページを返す。
+いったん別ファイルに落として中身を検めてから置き換える（前回のぶんを壊さないため）。
 """
-import json, os, subprocess, sys
+import json, os, subprocess, sys, time
 
 PREF_ISO = ["JP-02", "JP-03", "JP-04", "JP-05", "JP-06", "JP-07"]  # 青森〜福島
 OUT = "cache/osm/osm.json"
+MIN_ELEMENTS = 500          # これを下回るのは取得が欠けているとみなす
+ENDPOINTS = ["https://overpass-api.de/api/interpreter",
+             "https://overpass.kumi.systems/api/interpreter"]
 
 QUERY = """[out:json][timeout:600];
 (%s)->.a;
@@ -22,20 +28,44 @@ out center tags;
 """ % " ".join('area["ISO3166-2"="%s"];' % p for p in PREF_ISO)
 
 
+def looks_ok(path):
+    try:
+        d = json.load(open(path))
+    except Exception:
+        return 0
+    return len(d.get("elements") or [])
+
+
 def main(force=False):
-    if os.path.exists(OUT) and os.path.getsize(OUT) > 10000 and not force:
-        print("キャッシュを使う:", OUT)
-    else:
-        os.makedirs(os.path.dirname(OUT), exist_ok=True)
-        print("Overpass に問い合わせ中（数分かかる）…", flush=True)
+    have = looks_ok(OUT) if os.path.exists(OUT) else 0
+    if have >= MIN_ELEMENTS and not force:
+        print("キャッシュを使う: %s（%d件）" % (OUT, have))
+        return 0
+
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    tmp = OUT + ".tmp"
+    for i in range(4):
+        url = ENDPOINTS[i % len(ENDPOINTS)]
+        print("Overpass に問い合わせ中（%d回目 %s）…" % (i + 1, url), flush=True)
         subprocess.run(["curl", "-sS", "--max-time", "900", "-X", "POST",
-                        "-d", QUERY, "-o", OUT,
-                        "https://overpass-api.de/api/interpreter"], check=True)
-    d = json.load(open(OUT))
-    named = [e for e in d["elements"] if e.get("tags", {}).get("name")]
-    web = [e for e in named if e["tags"].get("website") or e["tags"].get("contact:website")]
-    print("POI %d件（名前あり %d件 / website %d件）" % (len(d["elements"]), len(named), len(web)))
+                        "-d", QUERY, "-o", tmp, url], check=False)
+        n = looks_ok(tmp)
+        if n >= MIN_ELEMENTS:
+            os.replace(tmp, OUT)
+            print("POI %d件を取得した" % n)
+            return 0
+        print("  → JSONとして読めないか件数が少ない（%d件）。待って取り直す" % n, flush=True)
+        time.sleep(30 * (i + 1))
+
+    if os.path.exists(tmp):
+        os.remove(tmp)
+    if have >= MIN_ELEMENTS:
+        # 公式サイトURLの補完に使うだけなので、前回のぶんで続けてよい
+        print("!! Overpass から取れなかった。前回のキャッシュ（%d件）で続ける" % have)
+        return 0
+    print("!! Overpass から取れず、使えるキャッシュも無い", file=sys.stderr)
+    return 1
 
 
 if __name__ == "__main__":
-    main("--force" in sys.argv)
+    sys.exit(main("--force" in sys.argv))

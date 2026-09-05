@@ -55,14 +55,36 @@ iPhone は Safari の共有ボタンから**「ホーム画面に追加」**に�
 
 ## 更新
 
-月1回、`tools/update.sh` を実行すると一覧を取り直して `saunas.json` を作り直します。
+**毎月1日 5:30 に launchd（`com.miffy.saunamap`）が `tools/monthly.sh` を動かします。**
+一覧を取り直して `saunas.json` を作り直し、中身が変わっていたら GitHub Pages へ push します。
 
 ```bash
-tools/update.sh          # 一覧58ページとOSMを取り直す（3分ほど）
+tools/monthly.sh         # 更新して push まで（launchd から呼ばれるのと同じ）
+tools/monthly.sh --dry   # 更新するだけで push しない
+tools/update.sh          # 一覧58ページとOSMを取り直して作り直す（3分ほど）
 tools/update.sh --quick  # 取得せずキャッシュから作り直すだけ
 ```
 
-一覧ページは間隔を空けて取ります（`SAUNA_WAIT`、既定1.5秒）。詰めて叩くとCAPTCHAが出ます。
+ログは `launchd_saunamap_stdout.log` / `launchd_saunamap_stderr.log`。
+失敗したときは macOS の通知が出ます。
+
+```bash
+launchctl list | grep saunamap                                   # 動いているか
+launchctl kickstart -k gui/$(id -u)/com.miffy.saunamap           # いま動かす
+launchctl bootout gui/$(id -u)/com.miffy.saunamap                # 止める
+```
+
+### 取得で気をつけていること
+
+- 一覧ページは間隔を空けて取ります（`SAUNA_WAIT`、既定1.5秒）。**詰めて叩くとCAPTCHAが出ます。**
+- 取得したページに `window.__MAP_DATA` が入っているかを毎回確かめ、
+  入っていなければ間隔を広げて3回まで取り直します。それでも駄目なら前回のぶんを使い、
+  そういうページが4枚を超えたら失敗として止めます（CAPTCHAで弾かれている状態で
+  中途半端なデータを書かないため）。
+- Overpass は混んでいるとJSONではなくHTMLのエラーページを返します。
+  別ファイルに落として件数を検めてから置き換えるので、前回のキャッシュは壊れません。
+  取れなかったときは前回のぶんで続けます（公式サイトURLの補完にしか使わないため）。
+- `monthly.sh` は施設が800件を下回ったら「取得に失敗した」とみなして `saunas.json` を戻します。
 
 ### 公式サイトのURLを足す
 
@@ -82,7 +104,8 @@ tools/
   match_osm.py            距離200m＋名前で突き合わせ → osm_match.json
   build.py                ぜんぶ合わせて ../saunas.json
   official_overrides.json 公式サイトURLの手動指定
-  update.sh               月1回の更新用
+  update.sh               取り直して saunas.json を作り直す
+  monthly.sh              update.sh ＋ 変化があれば push（launchdから毎月1日）
 ```
 
 ## 全国へ広げるとき
