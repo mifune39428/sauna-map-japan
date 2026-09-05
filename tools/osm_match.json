@@ -1161,6 +1161,13 @@
   "website": "",
   "phone": ""
  },
+ "342": {
+  "osm_name": "ウェルネスセンター しゃりき温泉",
+  "dist_m": 10,
+  "sim": 0.8,
+  "website": "https://sr-onsen.com/",
+  "phone": "+81 173 56 4126"
+ },
  "7101": {
   "osm_name": "るいけ源泉　えんの湯",
   "dist_m": 3,
@@ -1174,13 +1181,6 @@
   "sim": 1.0,
   "website": "",
   "phone": ""
- },
- "342": {
-  "osm_name": "ウェルネスセンター しゃりき温泉",
-  "dist_m": 10,
-  "sim": 0.8,
-  "website": "https://sr-onsen.com/",
-  "phone": "+81 173 56 4126"
  },
  "9519": {
   "osm_name": "大黒湯",
@@ -2778,19 +2778,19 @@
   "website": "",
   "phone": ""
  },
- "4360": {
-  "osm_name": "杜の湯 ドーミーインEXPRESS仙台広瀬通",
-  "dist_m": 5,
-  "sim": 0.91,
-  "website": "https://www.hotespa.net/hotels/sendai/",
-  "phone": "+81 22 715 7077"
- },
  "7420": {
   "osm_name": "鶴の湯",
   "dist_m": 5,
   "sim": 1.0,
   "website": "",
   "phone": ""
+ },
+ "4360": {
+  "osm_name": "杜の湯 ドーミーインEXPRESS仙台広瀬通",
+  "dist_m": 5,
+  "sim": 0.91,
+  "website": "https://www.hotespa.net/hotels/sendai/",
+  "phone": "+81 22 715 7077"
  },
  "5216": {
   "osm_name": "TAOYA秋保",

@@ -16,28 +16,28 @@ DROP = {"attached_photos", "hotels", "ikitai_counts", "post_counts",
 
 
 def parse(cache="cache/list"):
-    out = {}
+    out, bad = {}, []
     files = sorted(glob.glob(os.path.join(cache, "*", "*.html")))
     for f in files:
-        h = open(f, encoding="utf-8", errors="replace").read()
-        m = MAP_DATA.search(h)
+        m = MAP_DATA.search(open(f, encoding="utf-8", errors="replace").read())
         if not m:
-            print("!! __MAP_DATA が無い:", f, file=sys.stderr)
+            bad.append(f)
             continue
         for x in json.loads(m.group(1)):
-            # 写真は1枚だけ残す（カード表示に使う）
-            photo = ""
-            for p in (x.get("attached_photos") or []):
-                photo = (p.get("image_urls") or {}).get("w400") or p.get("image_url_medium") or ""
-                if photo:
-                    break
-            r = {k: v for k, v in x.items() if k not in DROP}
-            r["photo"] = photo
-            out[x["id"]] = r
-    return out, len(files)
+            out[x["id"]] = {k: v for k, v in x.items() if k not in DROP}
+    return out, len(files), bad
+
+
+def main():
+    data, n, bad = parse()
+    if bad:
+        print("!! __MAP_DATA が読めない一覧ページ %d 枚: %s"
+              % (len(bad), "／".join(bad[:5])), file=sys.stderr)
+        return 1
+    json.dump(data, open("map_data.json", "w"), ensure_ascii=False, indent=1)
+    print("一覧ページ %d 枚 → %d 施設" % (n, len(data)))
+    return 0
 
 
 if __name__ == "__main__":
-    data, n = parse()
-    json.dump(data, open("map_data.json", "w"), ensure_ascii=False, indent=1)
-    print("一覧ページ %d 枚 → %d 施設" % (n, len(data)))
+    sys.exit(main())
