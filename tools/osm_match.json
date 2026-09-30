@@ -204,7 +204,14 @@
  },
  "532": {
   "osm_name": "史跡の里交流プラザ柵の湯",
-  "dist_m": 13,
+  "dist_m": 5,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "568": {
+  "osm_name": "五輪坂温泉としとらんど",
+  "dist_m": 12,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -219,13 +226,6 @@
  "7544": {
   "osm_name": "休養センター さくら荘",
   "dist_m": 32,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "568": {
-  "osm_name": "五輪坂温泉としとらんど",
-  "dist_m": 12,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -307,13 +307,6 @@
   "website": "",
   "phone": ""
  },
- "83640": {
-  "osm_name": "ホテルパークテラスOGA",
-  "dist_m": 6,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "4908": {
   "osm_name": "船沢温泉",
   "dist_m": 13,
@@ -356,17 +349,17 @@
   "website": "",
   "phone": ""
  },
- "453": {
-  "osm_name": "湯らくの宿のしろ",
-  "dist_m": 20,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "4872": {
   "osm_name": "由利の里交流センター;ゆりえもん",
   "dist_m": 20,
   "sim": 0.97,
+  "website": "",
+  "phone": ""
+ },
+ "453": {
+  "osm_name": "湯らくの宿のしろ",
+  "dist_m": 20,
+  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -496,13 +489,6 @@
   "website": "",
   "phone": ""
  },
- "12912": {
-  "osm_name": "田沢湖ローズパークホテル",
-  "dist_m": 4,
-  "sim": 1.0,
-  "website": "https://tazawako-hotel.jp/",
-  "phone": ""
- },
  "12226": {
   "osm_name": "プラザの湯",
   "dist_m": 29,
@@ -520,9 +506,16 @@
  "552": {
   "osm_name": "ホテルプラザ迎賓",
   "dist_m": 5,
-  "sim": 1.0,
+  "sim": 0.86,
   "website": "https://yokote.co.jp/yuyu/",
   "phone": "+81 182 32 7777"
+ },
+ "25030": {
+  "osm_name": "結いの宿 別邸 つばき",
+  "dist_m": 9,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
  },
  "558": {
   "osm_name": "ホテルウェルネス横手路",
@@ -531,12 +524,12 @@
   "website": "https://hmihotelgroup.com/hotelwellness-yokoteji/",
   "phone": ""
  },
- "25030": {
-  "osm_name": "結いの宿 別邸 つばき",
-  "dist_m": 9,
-  "sim": 1.0,
+ "81793": {
+  "osm_name": "ホテルメルディア秋田",
+  "dist_m": 16,
+  "sim": 0.62,
   "website": "",
-  "phone": ""
+  "phone": "+81 18 865 7111"
  },
  "9690": {
   "osm_name": "秋田アスレティッククラブ",
@@ -661,12 +654,12 @@
   "osm_name": "ドーミーイン青森",
   "dist_m": 22,
   "sim": 0.6,
-  "website": "https://dormy-hotels.com/dormyinn/hotels/aomori/",
-  "phone": "017-721-5489"
+  "website": "",
+  "phone": ""
  },
  "401": {
   "osm_name": "十和田温泉",
-  "dist_m": 1,
+  "dist_m": 4,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -675,7 +668,7 @@
   "osm_name": "あそべの森いわき荘",
   "dist_m": 52,
   "sim": 0.67,
-  "website": "https://iwakisou.or.jp/",
+  "website": "http://iwakisou.or.jp",
   "phone": ""
  },
  "68359": {
@@ -706,6 +699,13 @@
   "website": "",
   "phone": ""
  },
+ "50506": {
+  "osm_name": "夏泊ゴルフリンクス",
+  "dist_m": 104,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
  "81775": {
   "osm_name": "アオーネ白神",
   "dist_m": 139,
@@ -713,10 +713,10 @@
   "website": "",
   "phone": ""
  },
- "50506": {
-  "osm_name": "夏泊ゴルフリンクス",
-  "dist_m": 104,
-  "sim": 1.0,
+ "10100": {
+  "osm_name": "ジョイフィット 八戸",
+  "dist_m": 11,
+  "sim": 0.9,
   "website": "",
   "phone": ""
  },
@@ -734,31 +734,10 @@
   "website": "",
   "phone": ""
  },
- "10100": {
-  "osm_name": "ジョイフィット 八戸",
-  "dist_m": 11,
-  "sim": 0.9,
-  "website": "",
-  "phone": ""
- },
- "8992": {
-  "osm_name": "ホリデイズボーツクラブ",
-  "dist_m": 46,
-  "sim": 0.73,
-  "website": "",
-  "phone": ""
- },
  "115231": {
   "osm_name": "小川原湖ふれあい村",
   "dist_m": 23,
   "sim": 0.67,
-  "website": "",
-  "phone": ""
- },
- "108136": {
-  "osm_name": "フィットイージー 弘前城東店",
-  "dist_m": 1,
-  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -855,7 +834,7 @@
  },
  "379": {
   "osm_name": "桂温泉",
-  "dist_m": 0,
+  "dist_m": 2,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -890,7 +869,7 @@
  },
  "5440": {
   "osm_name": "東北温泉",
-  "dist_m": 5,
+  "dist_m": 4,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -918,14 +897,14 @@
  },
  "391": {
   "osm_name": "紅葉の湯",
-  "dist_m": 6,
+  "dist_m": 10,
   "sim": 1.0,
   "website": "",
   "phone": ""
  },
  "376": {
   "osm_name": "平畑温泉",
-  "dist_m": 2,
+  "dist_m": 6,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -937,24 +916,10 @@
   "website": "",
   "phone": ""
  },
- "418": {
-  "osm_name": "白馬龍神温泉",
-  "dist_m": 3,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "344": {
   "osm_name": "スパハウス;ろっかぽっか",
   "dist_m": 2,
   "sim": 0.96,
-  "website": "",
-  "phone": ""
- },
- "80266": {
-  "osm_name": "三世寺温泉",
-  "dist_m": 66,
-  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -965,9 +930,16 @@
   "website": "",
   "phone": ""
  },
- "390": {
-  "osm_name": "一本木沢温泉",
-  "dist_m": 5,
+ "80266": {
+  "osm_name": "三世寺温泉",
+  "dist_m": 66,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "418": {
+  "osm_name": "白馬龍神温泉",
+  "dist_m": 3,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -975,6 +947,13 @@
  "6113": {
   "osm_name": "天然温泉 まつのゆ",
   "dist_m": 10,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "390": {
+  "osm_name": "一本木沢温泉",
+  "dist_m": 9,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -993,16 +972,16 @@
   "website": "",
   "phone": ""
  },
- "385": {
-  "osm_name": "はたけのゆっこ",
-  "dist_m": 5,
+ "4812": {
+  "osm_name": "柳湯",
+  "dist_m": 3,
   "sim": 1.0,
   "website": "",
   "phone": ""
  },
- "4812": {
-  "osm_name": "柳湯",
-  "dist_m": 3,
+ "385": {
+  "osm_name": "はたけのゆっこ",
+  "dist_m": 5,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -1016,22 +995,8 @@
  },
  "371": {
   "osm_name": "天間林温泉",
-  "dist_m": 3,
+  "dist_m": 7,
   "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "395": {
-  "osm_name": "つがる温泉",
-  "dist_m": 34,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "331": {
-  "osm_name": "桑畑温泉;湯ん湯ん♪",
-  "dist_m": 3,
-  "sim": 0.95,
   "website": "",
   "phone": ""
  },
@@ -1041,6 +1006,13 @@
   "sim": 0.6,
   "website": "http://imaruka.com",
   "phone": "+81 178 43 0123"
+ },
+ "331": {
+  "osm_name": "桑畑温泉;湯ん湯ん♪",
+  "dist_m": 3,
+  "sim": 0.95,
+  "website": "",
+  "phone": ""
  },
  "6894": {
   "osm_name": "五戸まきば温泉",
@@ -1058,7 +1030,7 @@
  },
  "4509": {
   "osm_name": "木崎野温泉",
-  "dist_m": 2,
+  "dist_m": 1,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -1072,14 +1044,7 @@
  },
  "400": {
   "osm_name": "ホテルポニー温泉",
-  "dist_m": 66,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "329": {
-  "osm_name": "おおま温泉海峡保養センター",
-  "dist_m": 26,
+  "dist_m": 68,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -1098,12 +1063,12 @@
   "website": "",
   "phone": ""
  },
- "7160": {
-  "osm_name": "上北さくら温泉",
-  "dist_m": 4,
+ "329": {
+  "osm_name": "おおま温泉海峡保養センター",
+  "dist_m": 26,
   "sim": 1.0,
   "website": "",
-  "phone": "+81 176 56 3900"
+  "phone": ""
  },
  "6372": {
   "osm_name": "大和温泉",
@@ -1112,24 +1077,24 @@
   "website": "",
   "phone": ""
  },
- "6307": {
-  "osm_name": "下田温泉;ゆーらくえん",
-  "dist_m": 9,
-  "sim": 0.95,
-  "website": "",
-  "phone": ""
- },
- "4881": {
-  "osm_name": "双葉湯",
-  "dist_m": 10,
+ "7160": {
+  "osm_name": "上北さくら温泉",
+  "dist_m": 4,
   "sim": 1.0,
   "website": "",
-  "phone": ""
+  "phone": "+81 176 56 3900"
  },
  "6367": {
   "osm_name": "長生湯",
   "dist_m": 1,
   "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "6307": {
+  "osm_name": "下田温泉;ゆーらくえん",
+  "dist_m": 9,
+  "sim": 0.95,
   "website": "",
   "phone": ""
  },
@@ -1147,17 +1112,10 @@
   "website": "",
   "phone": ""
  },
- "413": {
-  "osm_name": "奥入瀬 森のホテル",
+ "377": {
+  "osm_name": "さかた温泉",
   "dist_m": 6,
   "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "375": {
-  "osm_name": "ほっとプラザ;杉の子温泉",
-  "dist_m": 19,
-  "sim": 0.95,
   "website": "",
   "phone": ""
  },
@@ -1175,10 +1133,17 @@
   "website": "",
   "phone": ""
  },
- "377": {
-  "osm_name": "さかた温泉",
+ "413": {
+  "osm_name": "奥入瀬 森のホテル",
   "dist_m": 6,
   "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "375": {
+  "osm_name": "ほっとプラザ;杉の子温泉",
+  "dist_m": 19,
+  "sim": 0.95,
   "website": "",
   "phone": ""
  },
@@ -1210,16 +1175,16 @@
   "website": "",
   "phone": ""
  },
- "4877": {
-  "osm_name": "湯ートピア小中野",
-  "dist_m": 14,
+ "6905": {
+  "osm_name": "せせらぎ温泉",
+  "dist_m": 10,
   "sim": 1.0,
   "website": "",
   "phone": ""
  },
- "6905": {
-  "osm_name": "せせらぎ温泉",
-  "dist_m": 8,
+ "4877": {
+  "osm_name": "湯ートピア小中野",
+  "dist_m": 14,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -1238,10 +1203,10 @@
   "website": "",
   "phone": ""
  },
- "6179": {
-  "osm_name": "大坊温泉",
-  "dist_m": 20,
-  "sim": 1.0,
+ "338": {
+  "osm_name": "湯の沢温泉;ちゃぽらっと",
+  "dist_m": 36,
+  "sim": 0.96,
   "website": "",
   "phone": ""
  },
@@ -1249,13 +1214,6 @@
   "osm_name": "猿倉温泉",
   "dist_m": 13,
   "sim": 0.67,
-  "website": "",
-  "phone": ""
- },
- "338": {
-  "osm_name": "湯の沢温泉;ちゃぽらっと",
-  "dist_m": 36,
-  "sim": 0.96,
   "website": "",
   "phone": ""
  },
@@ -1273,6 +1231,13 @@
   "website": "",
   "phone": ""
  },
+ "360": {
+  "osm_name": "音次郎温泉",
+  "dist_m": 11,
+  "sim": 0.75,
+  "website": "",
+  "phone": ""
+ },
  "357": {
   "osm_name": "みちのく浴場",
   "dist_m": 7,
@@ -1287,19 +1252,19 @@
   "website": "",
   "phone": ""
  },
- "360": {
-  "osm_name": "音次郎温泉",
-  "dist_m": 11,
-  "sim": 0.75,
-  "website": "",
-  "phone": ""
- },
  "6216": {
   "osm_name": "桜ヶ丘温泉",
   "dist_m": 3,
   "sim": 1.0,
   "website": "",
   "phone": "0172-88-0500"
+ },
+ "437": {
+  "osm_name": "バーデハウスふくち",
+  "dist_m": 13,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
  },
  "396": {
   "osm_name": "平川温泉",
@@ -1311,13 +1276,6 @@
  "6966": {
   "osm_name": "六ヶ所村老人福祉センター",
   "dist_m": 15,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "437": {
-  "osm_name": "バーデハウスふくち",
-  "dist_m": 13,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -1350,13 +1308,6 @@
   "website": "",
   "phone": ""
  },
- "334": {
-  "osm_name": "石神温泉",
-  "dist_m": 14,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "12388": {
   "osm_name": "油川温泉",
   "dist_m": 5,
@@ -1375,6 +1326,13 @@
   "osm_name": "よこはま温泉;横浜町老人福祉センター",
   "dist_m": 5,
   "sim": 0.97,
+  "website": "",
+  "phone": ""
+ },
+ "334": {
+  "osm_name": "石神温泉",
+  "dist_m": 14,
+  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -1413,6 +1371,13 @@
   "website": "",
   "phone": ""
  },
+ "5069": {
+  "osm_name": "みどり温泉",
+  "dist_m": 5,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
  "6903": {
   "osm_name": "十和田市;市民の家",
   "dist_m": 13,
@@ -1423,13 +1388,6 @@
  "6753": {
   "osm_name": "稲垣温泉 ホテル花月亭",
   "dist_m": 38,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "5069": {
-  "osm_name": "みどり温泉",
-  "dist_m": 5,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -1532,18 +1490,11 @@
   "website": "",
   "phone": ""
  },
- "771": {
-  "osm_name": "バイパスサウナ",
-  "dist_m": 19,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "5604": {
   "osm_name": "中町フジグランドホテル",
   "dist_m": 7,
   "sim": 1.0,
-  "website": "https://www.fujigrandhotel.co.jp/",
+  "website": "http://www.fujigrandhotel.co.jp",
   "phone": ""
  },
  "8169": {
@@ -1574,17 +1525,17 @@
   "website": "",
   "phone": ""
  },
- "12614": {
-  "osm_name": "ジョイフィット",
-  "dist_m": 13,
-  "sim": 0.74,
-  "website": "",
-  "phone": ""
- },
  "10174": {
   "osm_name": "スポーツクラブルネサンスいわき",
   "dist_m": 7,
   "sim": 0.9,
+  "website": "",
+  "phone": ""
+ },
+ "771": {
+  "osm_name": "バイパスサウナ",
+  "dist_m": 19,
+  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -1616,17 +1567,17 @@
   "website": "",
   "phone": ""
  },
- "850": {
-  "osm_name": "太平洋健康センター;いわき蟹洗温泉",
-  "dist_m": 19,
-  "sim": 0.96,
-  "website": "",
-  "phone": ""
- },
  "818": {
   "osm_name": "天神岬温泉;しおかぜ荘",
   "dist_m": 9,
   "sim": 0.95,
+  "website": "",
+  "phone": ""
+ },
+ "850": {
+  "osm_name": "太平洋健康センター;いわき蟹洗温泉",
+  "dist_m": 19,
+  "sim": 0.96,
   "website": "",
   "phone": ""
  },
@@ -1714,19 +1665,19 @@
   "website": "https://www.shinchi-town.jp/soshiki/3/yado-karounoyu.html",
   "phone": ""
  },
- "775": {
-  "osm_name": "大江戸温泉物語あいづ",
-  "dist_m": 64,
-  "sim": 1.0,
-  "website": "",
-  "phone": "0570-011260"
- },
  "9779": {
   "osm_name": "三春の里 田園生活館",
   "dist_m": 35,
   "sim": 1.0,
   "website": "",
   "phone": "0247-62-8010"
+ },
+ "775": {
+  "osm_name": "大江戸温泉物語あいづ",
+  "dist_m": 64,
+  "sim": 1.0,
+  "website": "",
+  "phone": "0570-011260"
  },
  "753": {
   "osm_name": "新田川温泉;はらまちユッサ",
@@ -1763,6 +1714,13 @@
   "website": "",
   "phone": ""
  },
+ "813": {
+  "osm_name": "かわうちの湯",
+  "dist_m": 28,
+  "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
  "805": {
   "osm_name": "会津芦ノ牧温泉 大川荘",
   "dist_m": 27,
@@ -1788,13 +1746,6 @@
   "osm_name": "湯の田温泉 村民保養施設;さぎり荘",
   "dist_m": 59,
   "sim": 0.97,
-  "website": "",
-  "phone": ""
- },
- "813": {
-  "osm_name": "かわうちの湯",
-  "dist_m": 28,
-  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -1826,17 +1777,17 @@
   "website": "",
   "phone": ""
  },
- "757": {
-  "osm_name": "ホテルプルミエール箕輪",
-  "dist_m": 26,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "752": {
   "osm_name": "野地温泉",
   "dist_m": 36,
   "sim": 0.67,
+  "website": "",
+  "phone": ""
+ },
+ "757": {
+  "osm_name": "ホテルプルミエール箕輪",
+  "dist_m": 26,
+  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -1896,18 +1847,18 @@
   "website": "",
   "phone": ""
  },
- "8171": {
-  "osm_name": "きらくや",
-  "dist_m": 19,
-  "sim": 0.73,
-  "website": "http://www.kirakuya-inn.co.jp/ewelcome.stm",
-  "phone": ""
- },
  "31201": {
   "osm_name": "五峰荘",
   "dist_m": 7,
   "sim": 1.0,
   "website": "",
+  "phone": ""
+ },
+ "8171": {
+  "osm_name": "きらくや",
+  "dist_m": 19,
+  "sim": 0.73,
+  "website": "http://www.kirakuya-inn.co.jp/ewelcome.stm",
   "phone": ""
  },
  "79143": {
@@ -1935,7 +1886,7 @@
   "osm_name": "四季彩　一力",
   "dist_m": 52,
   "sim": 1.0,
-  "website": "https://www.ichiriki.com/",
+  "website": "http://www.ichiriki.com/",
   "phone": "+81 24 984 2115"
  },
  "815": {
@@ -1987,17 +1938,17 @@
   "website": "",
   "phone": ""
  },
- "7330": {
-  "osm_name": "セントラルウェルネスクラブ24 福島",
-  "dist_m": 67,
-  "sim": 0.94,
-  "website": "",
-  "phone": ""
- },
  "73045": {
   "osm_name": "松原キャンプ場",
   "dist_m": 38,
   "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "7330": {
+  "osm_name": "セントラルウェルネスクラブ24 福島",
+  "dist_m": 67,
+  "sim": 0.94,
   "website": "",
   "phone": ""
  },
@@ -2043,13 +1994,6 @@
   "website": "",
   "phone": ""
  },
- "542": {
-  "osm_name": "志戸平温泉 ホテル志戸平",
-  "dist_m": 27,
-  "sim": 0.6,
-  "website": "",
-  "phone": ""
- },
  "80451": {
   "osm_name": "鉛温泉 藤三旅館",
   "dist_m": 15,
@@ -2057,12 +2001,12 @@
   "website": "",
   "phone": "+81 198 25 2311"
  },
- "5980": {
-  "osm_name": "ドーミーイン盛岡",
-  "dist_m": 5,
-  "sim": 0.57,
+ "542": {
+  "osm_name": "志戸平温泉 ホテル志戸平",
+  "dist_m": 27,
+  "sim": 0.6,
   "website": "",
-  "phone": "+81 19 622 5489"
+  "phone": ""
  },
  "525": {
   "osm_name": "ラ・フランス温泉館",
@@ -2070,6 +2014,13 @@
   "sim": 1.0,
   "website": "",
   "phone": ""
+ },
+ "5980": {
+  "osm_name": "ドーミーイン盛岡",
+  "dist_m": 5,
+  "sim": 0.57,
+  "website": "",
+  "phone": "+81 19 622 5489"
  },
  "545": {
   "osm_name": "花と緑と安らぎの湯;東和温泉",
@@ -2127,17 +2078,17 @@
   "website": "",
   "phone": ""
  },
+ "504": {
+  "osm_name": "フォックスバーデン;スパドーム",
+  "dist_m": 6,
+  "sim": 0.96,
+  "website": "",
+  "phone": ""
+ },
  "451": {
   "osm_name": "おおの温泉;健康の湯",
   "dist_m": 10,
   "sim": 0.77,
-  "website": "",
-  "phone": ""
- },
- "504": {
-  "osm_name": "フォックスバーデン スパドーム",
-  "dist_m": 5,
-  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -2148,17 +2099,17 @@
   "website": "https://www.hanamakionsen.co.jp/koyokan/",
   "phone": ""
  },
- "81386": {
-  "osm_name": "紫波グリーンホテル",
-  "dist_m": 56,
-  "sim": 0.57,
-  "website": "",
-  "phone": ""
- },
  "584": {
   "osm_name": "舞鶴の湯",
   "dist_m": 4,
   "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "81386": {
+  "osm_name": "紫波グリーンホテル",
+  "dist_m": 56,
+  "sim": 0.57,
   "website": "",
   "phone": ""
  },
@@ -2246,17 +2197,17 @@
   "website": "",
   "phone": ""
  },
- "489": {
-  "osm_name": "八幡平温泉館;森乃湯",
-  "dist_m": 6,
-  "sim": 0.95,
-  "website": "",
-  "phone": ""
- },
  "5396": {
   "osm_name": "須川高原温泉",
   "dist_m": 60,
   "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "489": {
+  "osm_name": "八幡平温泉館;森乃湯",
+  "dist_m": 6,
+  "sim": 0.95,
   "website": "",
   "phone": ""
  },
@@ -2288,13 +2239,6 @@
   "website": "https://www.hanamakionsen.co.jp/kashoen/",
   "phone": ""
  },
- "78783": {
-  "osm_name": "ホテルグランシェール花巻",
-  "dist_m": 10,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "6729": {
   "osm_name": "平庭山荘",
   "dist_m": 32,
@@ -2306,6 +2250,13 @@
   "osm_name": "奥中山高原温泉;朝朱の湯",
   "dist_m": 10,
   "sim": 0.95,
+  "website": "",
+  "phone": ""
+ },
+ "78783": {
+  "osm_name": "ホテルグランシェール花巻",
+  "dist_m": 10,
+  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -2379,6 +2330,13 @@
   "website": "",
   "phone": "0195-66-3000"
  },
+ "5401": {
+  "osm_name": "休暇村陸中宮古",
+  "dist_m": 35,
+  "sim": 1.0,
+  "website": "https://www.qkamura.or.jp/miyako/",
+  "phone": ""
+ },
  "9856": {
   "osm_name": "ジョイフィット",
   "dist_m": 4,
@@ -2398,13 +2356,6 @@
   "dist_m": 8,
   "sim": 1.0,
   "website": "",
-  "phone": ""
- },
- "5401": {
-  "osm_name": "休暇村陸中宮古",
-  "dist_m": 35,
-  "sim": 1.0,
-  "website": "https://www.qkamura.or.jp/miyako/",
   "phone": ""
  },
  "72550": {
@@ -2474,7 +2425,7 @@
   "osm_name": "愛子天空の湯 そよぎの杜",
   "dist_m": 15,
   "sim": 1.0,
-  "website": "https://soyoginomori.site/",
+  "website": "",
   "phone": ""
  },
  "4376": {
@@ -2561,13 +2512,6 @@
   "website": "",
   "phone": "+81 224 25 1522"
  },
- "119972": {
-  "osm_name": "FIT-EASY",
-  "dist_m": 6,
-  "sim": 0.75,
-  "website": "https://shops.fiteasy.jp/shop280",
-  "phone": ""
- },
  "116291": {
   "osm_name": "ライブスポーツ将監",
   "dist_m": 2,
@@ -2598,10 +2542,10 @@
  },
  "8137": {
   "osm_name": "仙台ロイヤルパークホテル",
-  "dist_m": 21,
+  "dist_m": 20,
   "sim": 1.0,
-  "website": "https://www.srph.co.jp/",
-  "phone": "+81 22 377 1111"
+  "website": "",
+  "phone": ""
  },
  "6640": {
   "osm_name": "ジョイフィット",
@@ -2715,17 +2659,17 @@
   "website": "",
   "phone": ""
  },
- "691": {
-  "osm_name": "おおがわら天然温泉;いい湯",
-  "dist_m": 12,
-  "sim": 0.96,
-  "website": "",
-  "phone": ""
- },
  "624": {
   "osm_name": "ひまわり温泉 花おりの湯",
   "dist_m": 19,
   "sim": 1.0,
+  "website": "",
+  "phone": ""
+ },
+ "691": {
+  "osm_name": "おおがわら天然温泉;いい湯",
+  "dist_m": 12,
+  "sim": 0.96,
   "website": "",
   "phone": ""
  },
@@ -2743,17 +2687,17 @@
   "website": "https://www.akiugrand.com/",
   "phone": "+81 570 026 001"
  },
- "621": {
-  "osm_name": "極楽湯古川店",
-  "dist_m": 3,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "620": {
   "osm_name": "やくらい薬師の湯",
   "dist_m": 18,
   "sim": 0.71,
+  "website": "",
+  "phone": ""
+ },
+ "621": {
+  "osm_name": "極楽湯古川店",
+  "dist_m": 3,
+  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -2771,12 +2715,12 @@
   "website": "https://www.ichinobo.com/",
   "phone": "81 22 353 3333"
  },
- "595": {
-  "osm_name": "金成延年閣",
-  "dist_m": 2,
-  "sim": 0.75,
-  "website": "",
-  "phone": ""
+ "4360": {
+  "osm_name": "杜の湯 ドーミーインEXPRESS仙台広瀬通",
+  "dist_m": 5,
+  "sim": 0.91,
+  "website": "https://www.hotespa.net/hotels/sendai/",
+  "phone": "+81 22 715 7077"
  },
  "7420": {
   "osm_name": "鶴の湯",
@@ -2785,12 +2729,12 @@
   "website": "",
   "phone": ""
  },
- "4360": {
-  "osm_name": "杜の湯 ドーミーインEXPRESS仙台広瀬通",
-  "dist_m": 5,
-  "sim": 0.91,
-  "website": "https://www.hotespa.net/hotels/sendai/",
-  "phone": "+81 22 715 7077"
+ "595": {
+  "osm_name": "金成延年閣",
+  "dist_m": 2,
+  "sim": 0.75,
+  "website": "",
+  "phone": ""
  },
  "5216": {
   "osm_name": "TAOYA秋保",
@@ -2810,7 +2754,7 @@
   "osm_name": "わたり温泉 鳥の海",
   "dist_m": 17,
   "sim": 0.7,
-  "website": "https://www.torinoumi.com/",
+  "website": "http://www.torinoumi.com/",
   "phone": "+81 223 35 2744"
  },
  "6038": {
@@ -2820,9 +2764,9 @@
   "website": "",
   "phone": ""
  },
- "12751": {
-  "osm_name": "ゆづくしsalon 一の坊",
-  "dist_m": 7,
+ "685": {
+  "osm_name": "旅館 三治郎",
+  "dist_m": 25,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -2830,13 +2774,6 @@
  "11314": {
   "osm_name": "Seleva",
   "dist_m": 4,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
- "685": {
-  "osm_name": "旅館 三治郎",
-  "dist_m": 25,
   "sim": 1.0,
   "website": "",
   "phone": ""
@@ -2897,13 +2834,6 @@
   "website": "https://www.akiu-rantei.com/",
   "phone": "+81 22 397 1515"
  },
- "10882": {
-  "osm_name": "Hotel Coco Cool",
-  "dist_m": 4,
-  "sim": 0.87,
-  "website": "",
-  "phone": ""
- },
  "6105": {
   "osm_name": "ホテルプレミアムグリーンソブリン",
   "dist_m": 6,
@@ -2911,18 +2841,11 @@
   "website": "https://www.bh-green.co.jp/sovereign/",
   "phone": "+81 22 227 2322"
  },
- "89185": {
-  "osm_name": "大江戸温泉物語Premium 仙台作並",
-  "dist_m": 14,
-  "sim": 1.0,
+ "10882": {
+  "osm_name": "Hotel Coco Cool",
+  "dist_m": 4,
+  "sim": 0.87,
   "website": "",
-  "phone": ""
- },
- "683": {
-  "osm_name": "温泉山荘 だいこんの花",
-  "dist_m": 2,
-  "sim": 1.0,
-  "website": "https://www.daikon-no-hana.com/",
   "phone": ""
  },
  "88358": {
@@ -2938,6 +2861,13 @@
   "sim": 1.0,
   "website": "https://www.monte-hermana.jp/sendai/",
   "phone": "+81 22 721 7501"
+ },
+ "683": {
+  "osm_name": "温泉山荘 だいこんの花",
+  "dist_m": 2,
+  "sim": 1.0,
+  "website": "https://www.daikon-no-hana.com/",
+  "phone": ""
  },
  "651": {
   "osm_name": "ホテルメイフラワー仙台",
@@ -2960,19 +2890,19 @@
   "website": "",
   "phone": "+81 229 58 221"
  },
- "4879": {
-  "osm_name": "ホテル華の湯",
-  "dist_m": 69,
-  "sim": 0.8,
-  "website": "https://www.hananoyu.com/",
-  "phone": "+81 22 397 3141"
- },
  "7058": {
   "osm_name": "バーデン家 壮鳳",
   "dist_m": 53,
   "sim": 0.71,
   "website": "",
   "phone": ""
+ },
+ "4879": {
+  "osm_name": "ホテル華の湯",
+  "dist_m": 69,
+  "sim": 0.8,
+  "website": "https://www.hananoyu.com/",
+  "phone": "+81 22 397 3141"
  },
  "597": {
   "osm_name": "リゾートパークホテルオニコウベ",
@@ -2995,19 +2925,19 @@
   "website": "",
   "phone": ""
  },
- "79217": {
-  "osm_name": "スポーツクラブ ルネサンス",
-  "dist_m": 16,
-  "sim": 0.67,
-  "website": "",
-  "phone": ""
- },
  "8138": {
   "osm_name": "ホテル ルートイン 仙台東",
   "dist_m": 1,
   "sim": 1.0,
   "website": "https://route-inn.co.jp/",
   "phone": "+81 50 5864 0360"
+ },
+ "79217": {
+  "osm_name": "スポーツクラブ ルネサンス",
+  "dist_m": 16,
+  "sim": 0.67,
+  "website": "",
+  "phone": ""
  },
  "10294": {
   "osm_name": "パレス松洲",
@@ -3044,20 +2974,6 @@
   "website": "",
   "phone": "+81 229 36 6600"
  },
- "115497": {
-  "osm_name": "隠れ家Village薪のくつろぎ蔵王",
-  "dist_m": 111,
-  "sim": 1.0,
-  "website": "https://makirogi.jp/",
-  "phone": "0224-26-8650"
- },
- "11661": {
-  "osm_name": "一景閣",
-  "dist_m": 15,
-  "sim": 0.67,
-  "website": "",
-  "phone": ""
- },
  "7165": {
   "osm_name": "スポーツクラブ グラン・スポール24+愛子",
   "dist_m": 4,
@@ -3085,6 +3001,13 @@
   "sim": 0.6,
   "website": "https://www.sunhotel-tagajo.com/",
   "phone": "+81 22 362 3131"
+ },
+ "11661": {
+  "osm_name": "一景閣",
+  "dist_m": 15,
+  "sim": 0.67,
+  "website": "",
+  "phone": ""
  },
  "7327": {
   "osm_name": "大崎市民プール アクア・パル",
@@ -3307,7 +3230,7 @@
   "osm_name": "庄内おばこの里;こまぎの湯",
   "dist_m": 17,
   "sim": 0.95,
-  "website": "https://www.komagi.info/onsen/",
+  "website": "http://www.komagi.info/onsen/",
   "phone": "+81 235 35 0234"
  },
  "662": {
@@ -3319,7 +3242,7 @@
  },
  "641": {
   "osm_name": "ひまわり温泉;ゆらら",
-  "dist_m": 21,
+  "dist_m": 6,
   "sim": 0.95,
   "website": "",
   "phone": ""
@@ -3373,17 +3296,17 @@
   "website": "",
   "phone": ""
  },
- "598": {
-  "osm_name": "なの花温泉;田田",
-  "dist_m": 6,
-  "sim": 0.93,
-  "website": "",
-  "phone": ""
- },
  "616": {
   "osm_name": "花笠温泉;ふくの湯",
   "dist_m": 3,
   "sim": 0.92,
+  "website": "",
+  "phone": ""
+ },
+ "598": {
+  "osm_name": "なの花温泉;田田",
+  "dist_m": 6,
+  "sim": 0.93,
   "website": "",
   "phone": ""
  },
@@ -3457,10 +3380,10 @@
   "website": "https://www.tdh-tsuruoka.co.jp/",
   "phone": "+81 235 24 7611"
  },
- "590": {
-  "osm_name": "神室温泉;ホットハウス;カムロ",
-  "dist_m": 24,
-  "sim": 0.75,
+ "678": {
+  "osm_name": "蔵王 四季のホテル",
+  "dist_m": 28,
+  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -3478,24 +3401,10 @@
   "website": "",
   "phone": ""
  },
- "678": {
-  "osm_name": "蔵王 四季のホテル",
-  "dist_m": 28,
-  "sim": 1.0,
-  "website": "",
-  "phone": ""
- },
  "627": {
   "osm_name": "石亭小松",
   "dist_m": 47,
   "sim": 0.62,
-  "website": "",
-  "phone": ""
- },
- "80205": {
-  "osm_name": "ルーラグラン ソラシタ",
-  "dist_m": 38,
-  "sim": 1.0,
   "website": "",
   "phone": ""
  },
@@ -3504,6 +3413,13 @@
   "dist_m": 5,
   "sim": 1.0,
   "website": "https://zaospa.co.jp/",
+  "phone": ""
+ },
+ "80205": {
+  "osm_name": "ルーラグラン ソラシタ",
+  "dist_m": 38,
+  "sim": 1.0,
+  "website": "",
   "phone": ""
  },
  "614": {
